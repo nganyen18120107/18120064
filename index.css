@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Adamina', "Times New Roman";
+}
+  .header{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 40px;
+}
+.logo-left {
+    padding: 20px;
+    flex: 50%;
+  }
+  .logo-left img{
+      float: left;
+  }
+  .logo-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  h4{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .t1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: left;
+}
+.t1-left {
+    padding: 20px;
+    flex: 50%;
+  }
+  h1{
+      font-weight: bolder;
+      line-height: 50px;
+  }
+  .t1-left img{
+      float: center;
+      margin: 30px;
+  }
+  .word{
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .t1-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  .t1-right img{
+    float: right;
+    width: 600px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+  }
+  .c1-left{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+  }
+  .c1-right{
+    float: right;
+    width: 80%;
+  }  
+  .c2-left{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+  }
+  .c2-right{
+    float: right;
+    width: 80%;
+  }  
+  .c3-left{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+  }
+  .c3-right{
+    float: right;
+    width: 80%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .t3{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: left;
+}
+.t3-left {
+    padding: 20px;
+    flex: 50%;
+  }
+  .t3-right {
+    padding: 10px;
+    flex: 50%;
+  }
+  h3{
+    font-weight: lighter;
+    font-size: 15px;
+    color: orangered;
+    line-height: 30px;
+  }
+  a{
+    color: orangered !important
+  }
+  .t4{
+    margin: 40px;
+}  
+.t4 img{
+    width: 100%;
+}
+   .t5{
+    margin: 40px;
+}
+.t5 img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+  .btn img{
+    width: min-content !important;
+    margin-left: 200px;
+    text-align: center;
+}
+.footer img{
+    width: 100%;
+}
+  @media (max-width: 800px) {
+    .c1-left,.c1-right,.c2-left,.c1-right,.c3-left,.c3-right,.logo.right, .logo-left,.t1-right,.t1-left,.c1,.c2,.c3,.t3-left,.t3-right,.t4,.t5,.footer {
+      flex: 100%;
+    }
+  }
